@@ -1,0 +1,39 @@
+*{
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.homepage-title,.recipe-title{
+    color: black;
+    text-align: center;
+}
+
+.recipe-list{
+    font-weight: bold;
+    color: rgb(0, 91, 152)
+}
+
+.food-img{
+    border: 5px solid #555;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.description{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    color:grey
+}
+
+.para-header{
+    font-size: 25px;
+}
+
+.servings{
+    color: rgba(221, 80, 80, 0.586);
+    font-size: 16px;
+}
