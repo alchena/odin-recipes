@@ -3,14 +3,46 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.container{
+    width: 400px;
+    margin:auto;
+}
+
+.steps-card{
+    width: 600px;
+    margin: auto;
+}
+
 .homepage-title,.recipe-title{
     color: black;
+    font-size: 40px;
     text-align: center;
 }
 
+.homepage-title{
+    text-align: left;
+    color:rgb(74, 59, 23);
+}
+
+.recipe-list, .list{
+    border: 3px solid rgb(155, 108, 6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -25px;
+
+}
+
+.list p, .extra-steps{
+    padding-right: 40px;
+}
 .recipe-list{
     font-weight: bold;
-    color: rgb(0, 91, 152)
+    color: rgb(77, 95, 108);
+
+}
+/* recipe steps paragraph formatting */
+ul p{
+    padding-left: 20px;
 }
 
 .food-img{
@@ -29,11 +61,15 @@
     color:grey
 }
 
-.para-header{
+.para-header, .para-header strong{
     font-size: 25px;
+    background-color: wheat;
+    padding:10px;
 }
 
 .servings{
     color: rgba(221, 80, 80, 0.586);
     font-size: 16px;
+    margin-left: 20px;
+    margin-top: -20px;
 }
